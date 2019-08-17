@@ -131,9 +131,6 @@
       "more/book/README": {
         "title": "more/book/README"
       },
-      "more/dev-resources": {
-        "title": "Developer Resources"
-      },
       "more/glossary": {
         "title": "Glossary"
       },
@@ -146,11 +143,11 @@
       "more/intro-to-gametheory": {
         "title": "more/intro-to-gametheory"
       },
-      "more/learning-resources": {
-        "title": "more/learning-resources"
-      },
       "more/proof-of-work": {
         "title": "more/proof-of-work"
+      },
+      "more/resources": {
+        "title": "Glossary"
       },
       "sync/ch1.1-code-challenge": {
         "title": "Code Challenge"

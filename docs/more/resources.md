@@ -11,6 +11,9 @@ A list of helpful resources to learn everything you could ever want to know abou
 ### [Ethereum Wiki](https://eth.wiki/)
 - Great resource for all things Ethereum.
 
+### [/r/ethdev](https://www.reddit.com/r/ethdev/)
+- Helpful and friendly community of Ethereum devs
+
 ### [OpenZeppelin Crypto for Blockchains Course](https://forum.openzeppelin.com/t/the-crypto-in-cryptocurrencies-and-beyond/1107)
 - Currently hosted on their community forum
 

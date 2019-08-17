@@ -175,5 +175,6 @@ function Community(props) {
 }
 
 Community.title = "Community";
-Community.description = "Learn about community resources for Substrate.";
+Community.description =
+  "Learn about and engage with the Cryptoeconomics.Study community.";
 module.exports = Community;

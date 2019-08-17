@@ -1,0 +1,103 @@
+{
+  "docs": {
+    "Getting Started": [
+      "getting-started/welcome",
+			"getting-started/syllabus",
+      "sync/dev-env-setup"
+    ],
+		"Ch1: Payment Processor": [
+			"ch1/index",
+      {
+        "type": "subcategory",
+        "label": "1.1 Hashes and Signatures",
+        "ids": [
+          "ch1/ch1.1/lecture",
+          "sync/ch1.1-code-challenge"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "1.2 Payment Processor",
+        "ids": [
+          "ch1/ch1.2/lecture",
+          "sync/ch1.2-code-challenge"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "1.3 Replay Protection",
+        "ids": [
+          "ch1/ch1.3/lecture",
+          "sync/ch1.3-code-challenge"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "1.4 Account Model vs UTXOs",
+        "ids": [
+          "ch1/ch1.4/lecture",
+          "sync/ch1.4-code-challenge"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "1.5 Centralized Systems",
+        "ids": [
+          "ch1/ch1.5/lecture",
+          "sync/ch1.5-code-challenge"
+        ]
+      }
+		],
+		"Ch2: Network Models": [
+			"ch2/index",
+      {
+        "type": "subcategory",
+        "label": "2.1 Networks and Synchrony",
+        "ids": [
+          "ch2/ch2.1/lecture",
+          "sync/ch2.1/coding-challenge"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.2 Double Spends",
+        "ids": [
+          "ch2/ch2.2/lecture",
+          "sync/ch2.2-code-challenge"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.3 Latency-Based Consensus",
+        "ids": [
+          "ch2/ch2.3/lecture",
+          "sync/ch2.3-code-challenge"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "2.4 Proof of Authority",
+        "ids": [
+          "ch2/ch2.4/lecture",
+          "sync/ch2.4-code-challenge"
+        ]
+      }
+		],
+		"Ch3 Proof of Work": [
+			"ch3/index"
+		],
+    "More": [
+			"more/dev-resources",
+			"more/glossary"
+		]
+  },
+  "dao": {
+    "Cryptoeconomics.Study DAO": [
+      "dao/welcome",
+      "dao/gerbils",
+			"dao/carrots",
+			"dao/help-wanted",
+			"dao/code-of-conduct"
+    ]
+	}
+}

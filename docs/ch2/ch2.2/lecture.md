@@ -5,16 +5,16 @@ title: "Lecture"
 <br />
 
 # Double Spends
-- Inconsistent state in a distributed network of nodes, and the mischief which can ensue! 
+- Inconsistent state in a distributed network of nodes, and the mischief which can ensue!
 
 <br />
 <br />
-<iframe 
-	width="560" 
-	height="315" 
-	src=""
-	frameborder="0" 
-	allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+<iframe
+	width="560"
+	height="315"
+	src="https://www.youtube-nocookie.com/embed/k6JVGR7Jx0A"
+	frameborder="0"
+	allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 	allowfullscreen>
 </iframe>
 <br />
@@ -26,7 +26,7 @@ title: "Lecture"
 
 <br />
 
-# Ch2.2 Overview 
+# Ch2.2 Overview
 
 Double Spend
 - A double spend is when someone tries to broadcast two transactions that both spend the same account balance. This can be the result of simply sending a transaction again because it's not being processed, or trying to spend money you don't have. Because blockchains operate in an asynchronous environment, we never if/when messages will be processed. To prevent double spends we use things like [nonces](../../ch1/ch1.3/lecture) to determine which messages to process and which to discard. This is important to ensure that everyone on the network agrees on the shared state of the network.

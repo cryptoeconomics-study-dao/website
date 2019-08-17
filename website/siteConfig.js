@@ -27,7 +27,11 @@ const siteConfig = {
   // FOR LOCAL DEVELOPMENT
   //url: 'https://your-docusaurus-test-site.com',
   //baseUrl: '/',
+  //
   // FOR PUBLISHING TO burrrata.ch/ces-website
+  // Deployment Script
+  // GIT_USER=your-username CURRENT_BRANCH=master yarn run publish-gh-pages
+  // Deployment Config
   url: "https://burrrata.github.io",
   baseUrl: "/ces-website/",
 

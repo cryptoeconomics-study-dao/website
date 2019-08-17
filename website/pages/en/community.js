@@ -77,6 +77,14 @@ function Community(props) {
         <Button
           variant="dark"
           size="sm"
+          href="https://forum.cryptoeconomics.study/t/community-nominations/522"
+          className="m-1"
+        >
+          Nominations 🥕
+        </Button>
+        <Button
+          variant="dark"
+          size="sm"
           href="https://forum.cryptoeconomics.study/t/official-contribution-guidelines/453"
           className="m-1"
         >

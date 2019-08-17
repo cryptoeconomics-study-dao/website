@@ -193,7 +193,7 @@ class Index extends React.Component {
         >
           <Button
             variant="secondary"
-            href={docUrl("getting-started")}
+            href={pageUrl("community")}
             className="m-1 primary-color"
           >
             <translate>Community Page</translate>

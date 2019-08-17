@@ -1,5 +1,5 @@
 ---
-title: "Help Wanted"
+title: "Help Wanted 🙌"
 ---
 
 <br />

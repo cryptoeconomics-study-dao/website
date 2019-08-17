@@ -1,5 +1,5 @@
 ---
-title: Dev Env Setup
+title: Development Setup
 custom_edit_url: https://github.com/cryptoeconomics-study-dao/code//blob/master/README.md
 hide_title: false
 ---

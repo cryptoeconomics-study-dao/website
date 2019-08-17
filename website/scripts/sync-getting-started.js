@@ -7,8 +7,8 @@ const REPO = 'cryptoeconomics-study-dao/code/'
 
 const pages = [
 	{
-		destination: 'docs/sync/dev-env-setup.md',
-		title: 'Dev Env Setup',
+		destination: 'docs/sync/development-setup.md',
+		title: 'Development Setup',
 		contentLocation: 'README.md'
 	}
 ]

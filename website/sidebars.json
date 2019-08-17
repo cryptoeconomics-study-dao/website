@@ -3,7 +3,7 @@
     "Getting Started": [
       "getting-started/welcome",
 			"getting-started/syllabus",
-      "sync/dev-env-setup"
+      "sync/development-setup"
     ],
 		"Ch1: Payment Processor": [
 			"ch1/index",

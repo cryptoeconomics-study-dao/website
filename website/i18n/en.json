@@ -74,8 +74,8 @@
       "dao/welcome": {
         "title": "Welcome 👋"
       },
-      "getting-started/dev-env-setup": {
-        "title": "Dev Env Setup"
+      "getting-started/development-setup": {
+        "title": "Development Setup"
       },
       "getting-started/syllabus": {
         "title": "Syllabus"
@@ -176,8 +176,8 @@
       "sync/ch2.3-code-challenge": {
         "title": "Code Challenge"
       },
-      "sync/dev-env-setup": {
-        "title": "Dev Env Setup"
+      "sync/development-setup": {
+        "title": "Development Setup"
       },
       "tutorials/adding-a-module-to-your-runtime": {
         "title": "Adding a Module to Your Runtime"

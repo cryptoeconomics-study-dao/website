@@ -96,6 +96,7 @@
       "dao/welcome",
       "dao/gerbils",
 			"dao/carrots",
+			"dao/advisers",
 			"dao/help-wanted",
 			"dao/code-of-conduct"
     ]

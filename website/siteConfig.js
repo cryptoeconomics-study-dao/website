@@ -33,10 +33,10 @@ const siteConfig = {
   // GIT_USER=your-username CURRENT_BRANCH=master yarn run publish-gh-pages
   // Deployment Config
   url: "https://burrrata.github.io",
-  baseUrl: "/ces-website/",
+  baseUrl: "/cryptoeconomics-study-dao/",
 
   // Used for publishing and more
-  projectName: "ces-website",
+  projectName: "cryptoeconomics-study-dao",
   organizationName: "burrrata",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...

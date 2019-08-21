@@ -29,7 +29,7 @@ title: "Lecture"
 # Ch2.2 Overview
 
 Double Spend
-- A double spend is when someone tries to broadcast two transactions that both spend the same account balance. This can be the result of simply sending a transaction again because it's not being processed, or trying to spend money you don't have. Because blockchains operate in an asynchronous environment, we never if/when messages will be processed. To prevent double spends we use things like [nonces](../../ch1/ch1.3/lecture) to determine which messages to process and which to discard. This is important to ensure that everyone on the network agrees on the shared state of the network.
+- A double spend is when someone tries to broadcast two transactions that both spend the same account balance. This can be the result of sending a transaction again because it's doesn't look like it's being processed, or from trying to spend money you don't have. Blockchains operate in an asynchronous environment so we we never know if/when messages will be processed. To prevent double spends we use things like [nonces](../../ch1/ch1.3/lecture) to determine which messages to process and which to discard. This is important to ensure that everyone on the network agrees on the shared state of the network.
 
 <br />
 

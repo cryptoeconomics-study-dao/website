@@ -22,7 +22,7 @@ const users = require("./data/users");
 
 const siteConfig = {
   title: "Cryptoeconomics.Study", // Title for your website.
-  tagline: "Everything you Need to Learn The Fundamentals Of Cryptoeconomics",
+  tagline: "A free, open-source course on the fundamentals of Blockchain protocols",
 
   // FOR LOCAL DEVELOPMENT
   //url: 'https://your-docusaurus-test-site.com',

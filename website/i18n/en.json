@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Everything you Need to Learn The Fundamentals Of Cryptoeconomics",
+    "tagline": "A free, open-source course on the fundamentals of Blockchain protocols",
     "docs": {
       "ch1/ch1.1/coding-challenge": {
         "title": "Coding Challenge"
@@ -73,9 +73,6 @@
       },
       "dao/welcome": {
         "title": "Welcome 👋"
-      },
-      "getting-started/development-setup": {
-        "title": "Development Setup"
       },
       "getting-started/syllabus": {
         "title": "Syllabus"
@@ -175,45 +172,6 @@
       },
       "sync/development-setup": {
         "title": "Development Setup"
-      },
-      "tutorials/adding-a-module-to-your-runtime": {
-        "title": "Adding a Module to Your Runtime"
-      },
-      "tutorials/creating-a-runtime-module": {
-        "title": "Creating a Runtime Module"
-      },
-      "tutorials/creating-your-first-contract": {
-        "title": "Creating Your First Contract"
-      },
-      "tutorials/creating-your-first-substrate-chain": {
-        "title": "Creating Your First Substrate chain"
-      },
-      "tutorials/governance--public--mechanism-with-a-substrate-node-chain": {
-        "title": "Governance \"Public\" Mechanism with a Substrate Node Chain"
-      },
-      "tutorials/start-a-private-network-with-substrate": {
-        "title": "Start a Private Network with Substrate"
-      },
-      "tutorials/tcr/building-a-ui-for-the-tcr-runtime": {
-        "title": "Building a UI for the TCR runtime"
-      },
-      "tutorials/tcr/building-an-event-based-off-chain-storage": {
-        "title": "Building an event based off-chain storage"
-      },
-      "tutorials/tcr/building-the-substrate-tcr-runtime": {
-        "title": "Building the Substrate TCR runtime"
-      },
-      "tutorials/tcr/index": {
-        "title": "Introduction"
-      },
-      "tutorials/tcr/tcr-best-practices": {
-        "title": "Best Practices"
-      },
-      "tutorials/tcr/unit-testing-the-tcr-runtime-module": {
-        "title": "Unit testing the TCR runtime module"
-      },
-      "tutorials/validator-nodes-and-nominators-on-substrate-chains": {
-        "title": "Validator Nodes and Nominators on Substrate chains"
       }
     },
     "links": {

@@ -407,5 +407,5 @@ class Index extends React.Component {
 
 Index.title = "Cryptoeconomics.Study";
 Index.description =
-  "Everything you Need to Learn The Fundamentals Of Cryptoeconomics";
+  "A free, open-source course on the fundamentals of Blockchain protocols";
 module.exports = Index;

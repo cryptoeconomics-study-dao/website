@@ -145,33 +145,6 @@
       },
       "more/resources": {
         "title": "Glossary"
-      },
-      "sync/ch1.1-code-challenge": {
-        "title": "Code Challenge"
-      },
-      "sync/ch1.2-code-challenge": {
-        "title": "Code Challenge"
-      },
-      "sync/ch1.3-code-challenge": {
-        "title": "Code Challenge"
-      },
-      "sync/ch1.4-code-challenge": {
-        "title": "Code Challenge"
-      },
-      "sync/ch1.5-code-challenge": {
-        "title": "Code Challenge"
-      },
-      "sync/ch2.1-code-challenge": {
-        "title": "Code Challenge"
-      },
-      "sync/ch2.2-code-challenge": {
-        "title": "Code Challenge"
-      },
-      "sync/ch2.3-code-challenge": {
-        "title": "Code Challenge"
-      },
-      "sync/development-setup": {
-        "title": "Development Setup"
       }
     },
     "links": {

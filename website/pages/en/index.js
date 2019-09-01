@@ -384,7 +384,7 @@ class Index extends React.Component {
               href: `${docUrl("getting-started/welcome")}`
             },
             {
-              name: "DAO",
+              name: "Community DAO",
               href:
                 "https://rinkeby.aragon.org/#/0xEAA147020b006e6Bfe9e3e1A9f1FaD330A9E20F5/"
             }

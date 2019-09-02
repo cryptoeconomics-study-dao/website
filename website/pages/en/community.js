@@ -168,6 +168,7 @@ function Community(props) {
           </p>
           <Forum />
           <DAO />
+					<br />
         </Container>
       </div>
     </div>

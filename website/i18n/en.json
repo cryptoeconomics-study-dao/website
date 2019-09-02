@@ -5,43 +5,43 @@
     "previous": "Previous",
     "tagline": "A free, open-source course on the fundamentals of Blockchain protocols",
     "docs": {
-      "ch1/ch1.1/coding-challenge": {
+      "ch1/1.1/coding-challenge": {
         "title": "Coding Challenge"
       },
-      "ch1/ch1.1/lecture": {
+      "ch1/1.1/lecture": {
         "title": "Lecture"
       },
-      "ch1/ch1.2/lecture": {
+      "ch1/1.2/lecture": {
         "title": "Lecture"
       },
-      "ch1/ch1.3/lecture": {
+      "ch1/1.3/lecture": {
         "title": "Lecture"
       },
-      "ch1/ch1.4/lecture": {
+      "ch1/1.4/lecture": {
         "title": "Lecture"
       },
-      "ch1/ch1.5/lecture": {
+      "ch1/1.5/lecture": {
         "title": "Lecture"
       },
       "ch1/index": {
         "title": "Overview"
       },
-      "ch2/ch2.1/lecture": {
+      "ch2/2.1/lecture": {
         "title": "Lecture"
       },
-      "ch2/ch2.2/lecture": {
+      "ch2/2.2/lecture": {
         "title": "Lecture"
       },
-      "ch2/ch2.3/lecture": {
+      "ch2/2.3/lecture": {
         "title": "Lecture"
       },
-      "ch2/ch2.4/lecture": {
+      "ch2/2.4/lecture": {
         "title": "Lecture"
       },
       "ch2/index": {
         "title": "Overview"
       },
-      "ch3/ch3.1/lecture": {
+      "ch3/3.1/lecture": {
         "title": "Lecture"
       },
       "ch3/index": {
@@ -146,28 +146,31 @@
       "more/resources": {
         "title": "Glossary"
       },
-      "sync/ch1.1-code-challenge": {
+      "sync/1.1-code-challenge": {
         "title": "Code Challenge"
       },
-      "sync/ch1.2-code-challenge": {
+      "sync/1.2-code-challenge": {
         "title": "Code Challenge"
       },
-      "sync/ch1.3-code-challenge": {
+      "sync/1.3-code-challenge": {
         "title": "Code Challenge"
       },
-      "sync/ch1.4-code-challenge": {
+      "sync/1.4-code-challenge": {
         "title": "Code Challenge"
       },
-      "sync/ch1.5-code-challenge": {
+      "sync/1.5-code-challenge": {
         "title": "Code Challenge"
       },
-      "sync/ch2.1-code-challenge": {
+      "sync/2.1-code-challenge": {
         "title": "Code Challenge"
       },
-      "sync/ch2.2-code-challenge": {
+      "sync/2.2-code-challenge": {
         "title": "Code Challenge"
       },
-      "sync/ch2.3-code-challenge": {
+      "sync/2.3-code-challenge": {
+        "title": "Code Challenge"
+      },
+      "sync/2.4-code-challenge": {
         "title": "Code Challenge"
       },
       "sync/development-setup": {
@@ -227,9 +230,11 @@
     "Interactive visualizations of key concepts|no description given": "Interactive visualizations of key concepts",
     "Challenging coding assignments that get you familiar with the tooling used to build cryptoeconomic systems in the real world|no description given": "Challenging coding assignments that get you familiar with the tooling used to build cryptoeconomic systems in the real world",
     "Fun Fastpaced Lectures|no description given": "Fun Fastpaced Lectures",
-    "Our goal is to make it as easily as possible to understand cryptoeconomics. We start from first principles with a simple payment processor and go all the way to the current state of Ethereum. Along the way we break down all the concepts you need to know into intuitive actionable chunks.|no description given": "Our goal is to make it as easily as possible to understand cryptoeconomics. We start from first principles with a simple payment processor and go all the way to the current state of Ethereum. Along the way we break down all the concepts you need to know into intuitive actionable chunks.",
+    "Our goal is to make it as easily as possible to understand the inner workings of protocols like Bitcoin and Ethereum. We start by learning about how a simple payment processor like Paypal works and go all the way to understanding Bitcoin and (coming soon!) cutting-edge Ethereum research like Proof of Stake and Plasma. Through our fun, animated lectures, we’ll give you a high-level overview of all of the key concepts needed to understand Blockchain protocols.|no description given": "Our goal is to make it as easily as possible to understand the inner workings of protocols like Bitcoin and Ethereum. We start by learning about how a simple payment processor like Paypal works and go all the way to understanding Bitcoin and (coming soon!) cutting-edge Ethereum research like Proof of Stake and Plasma. Through our fun, animated lectures, we’ll give you a high-level overview of all of the key concepts needed to understand Blockchain protocols.",
     "Challenging Code Assignments|no description given": "Challenging Code Assignments",
-    "We help you translate the knowledge you gain from the lectures and documentation into real live working code. These aren't just toy demo assignments either. You'll be using the same tooling and workflows that professional Ethereum Dapp developers and researchers use everyday.|no description given": "We help you translate the knowledge you gain from the lectures and documentation into real live working code. These aren't just toy demo assignments either. You'll be using the same tooling and workflows that professional Ethereum Dapp developers and researchers use everyday.",
+    "Each lecture is accompanied by a challenging coding assignment, where you will implement the concepts from the lecture. By actually building the protocols and attacks from the lectures, you’ll learn all of the nitty-gritty technical details in a fun, hands-on way. After completing the coding assignments, you’ll have the knowledge to start contributing to research discussions and development of cryptoeconomic designs.|no description given": "Each lecture is accompanied by a challenging coding assignment, where you will implement the concepts from the lecture. By actually building the protocols and attacks from the lectures, you’ll learn all of the nitty-gritty technical details in a fun, hands-on way. After completing the coding assignments, you’ll have the knowledge to start contributing to research discussions and development of cryptoeconomic designs.",
+    "Community Driven|no description given": "Community Driven",
+    "Cryptoeconomics.Study has a DAO! This allows the community to transparently make decisions, manage funds, and reward community contributors. As the community grows we will move more and more from core contributors (gerbils) to community contributors (carrot holders). This will allow us to create a truly decentralized, self sovereign, incentive aligned community :)|no description given": "Cryptoeconomics.Study has a DAO! This allows the community to transparently make decisions, manage funds, and reward community contributors. As the community grows we will move more and more from core contributors (gerbils) to community contributors (carrot holders). This will allow us to create a truly decentralized, self sovereign, incentive aligned community :)",
     "Cryptoeconomics.Study Contributors|no description given": "Cryptoeconomics.Study Contributors",
     "More Cryptoeconomics.Study Contributors|no description given": "More Cryptoeconomics.Study Contributors",
     "We're shaping the future of positive-sum system development.|no description given": "We're shaping the future of positive-sum system development.",

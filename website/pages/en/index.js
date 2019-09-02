@@ -27,8 +27,8 @@ const translate = require("../../server/translate.js").translate;
 
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ""} = this.props;
-    const {baseUrl, docsUrl} = siteConfig;
+    const { config: siteConfig, language = "" } = this.props;
+    const { baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
     const langPart = `${language ? `${language}/` : ""}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
@@ -108,7 +108,6 @@ class Index extends React.Component {
           textAligh: "center",
           paddingTop: "5vmin",
           paddingBottom: "5vmin"
-          //background: 'red'
         }}
         className={
           (props.background
@@ -226,7 +225,7 @@ class Index extends React.Component {
     const WhatIsCES = () => (
       <div
         className="productShowcaseSection mb-5 mt-5"
-        style={{textAlign: "center"}}
+        style={{ textAlign: "center" }}
       >
         <h2 className="text-dark">
           <translate>What is Cryptoeconomics.Study?</translate>
@@ -275,25 +274,28 @@ class Index extends React.Component {
       </FeatureWlogo>
     );
 
-    // Highlight 2
-    const Highlight2 = () => (
+    // Lectures Highlight
+    const Lectures = () => (
       <FeatureWiframe
         //image={`${baseUrl}img/undraw_mind_map.svg`}
+        background="dark"
         imageAlign="left"
         title={<translate>Fun Fastpaced Lectures</translate>}
       >
         <translate>
-          Our goal is to make it as easily as possible to understand
-          cryptoeconomics. We start from first principles with a simple payment
-          processor and go all the way to the current state of Ethereum. Along
-          the way we break down all the concepts you need to know into intuitive
-          actionable chunks.
+          Our goal is to make it as easily as possible to understand the inner
+          workings of protocols like Bitcoin and Ethereum. We start by learning
+          about how a simple payment processor like Paypal works and go all the
+          way to understanding Bitcoin and (coming soon!) cutting-edge Ethereum
+          research like Proof of Stake and Plasma. Through our fun, animated
+          lectures, we’ll give you a high-level overview of all of the key
+          concepts needed to understand Blockchain protocols.
         </translate>
       </FeatureWiframe>
     );
 
-    // Highlight 3
-    const Highlight3 = () => (
+    // Coding Challenges Highlight
+    const CodingChallenges = () => (
       <Feature
         background="dark"
         image="https://i.imgur.com/RSqFMdk.png"
@@ -301,11 +303,32 @@ class Index extends React.Component {
         title={<translate>Challenging Code Assignments</translate>}
       >
         <translate>
-          We help you translate the knowledge you gain from the lectures and
-          documentation into real live working code. These aren't just toy demo
-          assignments either. You'll be using the same tooling and workflows
-          that professional Ethereum Dapp developers and researchers use
-          everyday.
+          Each lecture is accompanied by a challenging coding assignment, where
+          you will implement the concepts from the lecture. By actually building
+          the protocols and attacks from the lectures, you’ll learn all of the
+          nitty-gritty technical details in a fun, hands-on way. After
+          completing the coding assignments, you’ll have the knowledge to start
+          contributing to research discussions and development of cryptoeconomic
+          designs.
+        </translate>
+      </Feature>
+    );
+
+    // Community DAO Highlight
+    const CommunityDAO = () => (
+      <Feature
+        background="dark"
+        image="https://i.imgur.com/I1dcOlB.png"
+        imageAlign="left"
+        title={<translate>Community Driven</translate>}
+      >
+        <translate>
+          Cryptoeconomics.Study has a DAO! This allows the community to
+          transparently make decisions, manage funds, and reward community
+          contributors. As the community grows we will move more and more from
+          core contributors (gerbils) to community contributors (carrot
+          holders). This will allow us to create a truly decentralized, self
+          sovereign, incentive aligned community :)
         </translate>
       </Feature>
     );
@@ -360,23 +383,22 @@ class Index extends React.Component {
               name: "Get Started, It's Free!",
               href: `${docUrl("getting-started/welcome")}`
             },
-            {name: "Learn More", href: "#learn"}
+            {
+              name: "Community DAO",
+              href:
+                "https://rinkeby.aragon.org/#/0xEAA147020b006e6Bfe9e3e1A9f1FaD330A9E20F5/"
+            }
           ]}
           padding={5}
         />
         <div className="mainContainer">
           <Container>
             <br />
-            <Hotspots />
+            <Lectures />
             <br />
-            <LearnAnchor />
-            <WhatIsCES />
+            <CodingChallenges />
             <br />
-            <Highlight1 />
-            <br />
-            <Highlight2 />
-            <br />
-            <Highlight3 />
+            <CommunityDAO />
             <br />
             <Showcase />
             <br />
@@ -389,5 +411,5 @@ class Index extends React.Component {
 
 Index.title = "Cryptoeconomics.Study";
 Index.description =
-  "Everything you Need to Learn The Fundamentals Of Cryptoeconomics";
+  "A free, open-source course on the fundamentals of Blockchain protocols";
 module.exports = Index;

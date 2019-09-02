@@ -22,7 +22,8 @@ const users = require("./data/users");
 
 const siteConfig = {
   title: "Cryptoeconomics.Study", // Title for your website.
-  tagline: "A free, open-source course on the fundamentals of Blockchain protocols",
+  tagline:
+    "A free, open-source course on the fundamentals of Blockchain protocols",
 
   // FOR LOCAL DEVELOPMENT
   //url: 'https://your-docusaurus-test-site.com',
@@ -31,22 +32,23 @@ const siteConfig = {
   // FOR PUBLISHING TO burrrata.ch/ces-website
   // Deployment Script
   // GIT_USER=your-username CURRENT_BRANCH=master yarn run publish-gh-pages
-  // Deployment Config
-  url: "https://burrrata.github.io",
-  baseUrl: "/cryptoeconomics-study-dao/",
-
-  // Used for publishing and more
-  projectName: "cryptoeconomics-study-dao",
-  organizationName: "burrrata",
+  // Deployment Config - WORKS
+  url: "https://cryptoeconomics-study-dao.github.io",
+  baseUrl: "/website/",
+  projectName: "website",
+  organizationName: "cryptoeconomics-study-dao",
+  // Does not work
+  //baseUrl: "/",
+  //projectName: "/",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: "getting-started/welcome", label: "Course"},
-    {href: "community", label: "Community"},
-    {doc: "dao/welcome", label: "Contribute"}
+    { doc: "getting-started/welcome", label: "Course" },
+    { href: "community", label: "Community" },
+    { doc: "dao/welcome", label: "Contribute" }
     /*
     {
       href:

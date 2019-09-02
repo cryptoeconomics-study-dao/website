@@ -7,22 +7,22 @@ const REPO = 'cryptoeconomics-study-dao/code/'
 
 const pages = [
 	{
-		destination: 'docs/sync/ch2.1-code-challenge.md',
+		destination: 'docs/sync/2.1-code-challenge.md',
 		title: 'Code Challenge',
 		contentLocation: 'ch2/2.1/README.md'
 	},
 	{
-		destination: 'docs/sync/ch2.2-code-challenge.md',
+		destination: 'docs/sync/2.2-code-challenge.md',
 		title: 'Code Challenge',
 		contentLocation: 'ch2/2.2/README.md'
 	},
 	{
-		destination: 'docs/sync/ch2.3-code-challenge.md',
+		destination: 'docs/sync/2.3-code-challenge.md',
 		title: 'Code Challenge',
 		contentLocation: 'ch2/2.3/README.md'
 	},
 	{
-		destination: 'docs/sync/ch2.4-code-challenge.md',
+		destination: 'docs/sync/2.4-code-challenge.md',
 		title: 'Code Challenge',
 		contentLocation: 'ch2/2.4/README.md'
 	}
